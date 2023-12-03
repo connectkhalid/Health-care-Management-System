@@ -1,8 +1,14 @@
 # Health-care-Management-System
+Documentation for Online Book Library Application
 
+Contact: Mohammad Khalid Hasan
+Email: connectkhalid404@gmail.com
+Version: 1.0
 ## Introduction
 
 HMS is a Healthcare Management System that streamlines healthcare services and the community effectively. It optimizes appointment scheduling and personalized patient health recommendations, enhancing overall community engagement effectively.
+
+![image](https://github.com/connectkhalid/Health-care-Management-System/assets/116859905/c5666b87-4ff4-44a0-81b4-ea75ce7e3aa3)
 
 ## User Profile Service
 
