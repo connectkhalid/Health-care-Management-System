@@ -10,7 +10,7 @@ HMS is a Healthcare Management System that streamlines healthcare services and t
 
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
+To run this project, you will need to add/install the following environment variable
 
 [`JDK 17`](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 [`Gradle 8.1`](https://gradle.org/next-steps/?version=8.1&format=all)
