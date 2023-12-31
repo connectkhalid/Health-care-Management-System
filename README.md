@@ -1,5 +1,5 @@
 # Health-care-Management-System
-Documentation for Online Book Library Application
+Documentation for Health-care-Management-System
 
 Contact: Mohammad Khalid Hasan
 Email: connectkhalid404@gmail.com
