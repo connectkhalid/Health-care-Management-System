@@ -10,6 +10,96 @@ HMS is a Healthcare Management System that streamlines healthcare services and t
 
 ![image](https://github.com/connectkhalid/Health-care-Management-System/assets/116859905/c5666b87-4ff4-44a0-81b4-ea75ce7e3aa3)
 
+
+# Microservices Project Entities
+
+## User Service
+
+| Field         | Type       |
+|---------------|------------|
+| id            | String     |
+| name          | String     |
+| email         | String     |
+| password      | String     |
+| role          | String     |
+| gender        | String     |
+| age           | Integer    |
+| address       | String     |
+| image         | String     |
+| contactInfo   | String     |
+| isVerified    | Boolean    |
+| createdAt     | LocalDate  |
+
+| Field             | Type       |
+|-------------------|------------|
+| userId            | String     |
+| heightCm          | Double     |
+| weightKg          | Double     |
+| bloodSugarLevel   | Double     |
+| bloodPressure     | String     |
+| bloodGroup        | String     |
+| heartRate         | Integer    |
+| bmi               | Double     |
+| sleepHour         | Integer    |
+| smoke             | Boolean    |
+| createdAt         | LocalDate  |
+
+## Doctor Service
+
+| Field                   | Type       |
+|-------------------------|------------|
+| doctor_id               | String     |
+| name                    | String     |
+| email                   | String     |
+| password                | String     |
+| image                   | String     |
+| role                    | String     |
+| gender                  | String     |
+| registration_BDMC       | String     |
+| department              | String     |
+| allocated_room          | String     |
+| qualifications          | String     |
+| isValid                 | Boolean    |
+| isAvailable             | Boolean    |
+| created_at              | LocalDate  |
+
+| Field             | Type           |
+|-------------------|----------------|
+| appointmentId    | String         |
+| patientId        | String         |
+| patientName      | String         |
+| doctorId         | String         |
+| doctorName       | String         |
+| slotId           | String         |
+| appointmentType  | String         |
+| conferenceLink   | String         |
+| appointmentDate  | LocalDate      |
+| startTime        | LocalTime      |
+| endTime          | LocalTime      |
+| status           | String         |
+| createdAt        | LocalDateTime  |
+
+| Field       | Type       |
+|-------------|------------|
+| reviewId    | String     |
+| message     | String     |
+| rating      | Integer    |
+| doctorId    | String     |
+| patientId   | String     |
+| patientName | String     |
+| createdAt   | LocalDateTime |
+
+| Field         | Type       |
+|---------------|------------|
+| slotId        | String     |
+| doctorId      | String     |
+| patientId     | String     |
+| startTime     | LocalTime  |
+| endTime       | LocalTime  |
+| isAvailable   | Boolean    |
+| slotDate      | LocalDate  |
+
+
 ## User Profile Service
 
 1. **Register Patient**
