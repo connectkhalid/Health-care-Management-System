@@ -1,105 +1,26 @@
-# Health-care-Management-System
-Documentation for Health-care-Management-System
 
-Contact: Mohammad Khalid Hasan
-Email: connectkhalid404@gmail.com
-Version: 1.0
-## Introduction
+# Healthcare Management System
 
-HMS is a Healthcare Management System that streamlines healthcare services and the community effectively. It optimizes appointment scheduling and personalized patient health recommendations, enhancing overall community engagement effectively.
+HMS is a Healthcare Management System that streamlines healthcare services and the community effectively. It optimizes appointment scheduling and personalized patient health recommendations, enhancing overall community engagement effectively. In this microservice project architechture there are 9 services- UserProfile, DoctorProfile, CDSS, CommunityPortal, PharmacyInventory, Analysis-and-Research, ServiceRegistry, ApiGateway, ConfigServer.
 
+## Documentation
+1. [SRS Documentation & Diagrams](https://1drv.ms/f/s!At5obTwuFiuXhPhrcoAj_Uk1YAoWxA?e=3YixD3)
+2. [API Documentation](https://documenter.getpostman.com/view/29444616/2s9YeEcY8V)
+
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+[`JDK 17`](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+[`Gradle 8.1`](https://gradle.org/next-steps/?version=8.1&format=all)
+[`IntelliJ IDEA`](https://www.jetbrains.com/idea/)
+[`Node.js 20.10.0 LTS`](https://nodejs.org/en)
+[`Visual Studio`](https://visualstudio.microsoft.com/vs/community/)
+
+## Project Architechture 
 ![image](https://github.com/connectkhalid/Health-care-Management-System/assets/116859905/c5666b87-4ff4-44a0-81b4-ea75ce7e3aa3)
-
-
-# Microservices Project Entities
-
-## User Service
-
-| Field         | Type       |
-|---------------|------------|
-| id            | String     |
-| name          | String     |
-| email         | String     |
-| password      | String     |
-| role          | String     |
-| gender        | String     |
-| age           | Integer    |
-| address       | String     |
-| image         | String     |
-| contactInfo   | String     |
-| isVerified    | Boolean    |
-| createdAt     | LocalDate  |
-
-| Field             | Type       |
-|-------------------|------------|
-| userId            | String     |
-| heightCm          | Double     |
-| weightKg          | Double     |
-| bloodSugarLevel   | Double     |
-| bloodPressure     | String     |
-| bloodGroup        | String     |
-| heartRate         | Integer    |
-| bmi               | Double     |
-| sleepHour         | Integer    |
-| smoke             | Boolean    |
-| createdAt         | LocalDate  |
-
-## Doctor Service
-
-| Field                   | Type       |
-|-------------------------|------------|
-| doctor_id               | String     |
-| name                    | String     |
-| email                   | String     |
-| password                | String     |
-| image                   | String     |
-| role                    | String     |
-| gender                  | String     |
-| registration_BDMC       | String     |
-| department              | String     |
-| allocated_room          | String     |
-| qualifications          | String     |
-| isValid                 | Boolean    |
-| isAvailable             | Boolean    |
-| created_at              | LocalDate  |
-
-| Field             | Type           |
-|-------------------|----------------|
-| appointmentId    | String         |
-| patientId        | String         |
-| patientName      | String         |
-| doctorId         | String         |
-| doctorName       | String         |
-| slotId           | String         |
-| appointmentType  | String         |
-| conferenceLink   | String         |
-| appointmentDate  | LocalDate      |
-| startTime        | LocalTime      |
-| endTime          | LocalTime      |
-| status           | String         |
-| createdAt        | LocalDateTime  |
-
-| Field       | Type       |
-|-------------|------------|
-| reviewId    | String     |
-| message     | String     |
-| rating      | Integer    |
-| doctorId    | String     |
-| patientId   | String     |
-| patientName | String     |
-| createdAt   | LocalDateTime |
-
-| Field         | Type       |
-|---------------|------------|
-| slotId        | String     |
-| doctorId      | String     |
-| patientId     | String     |
-| startTime     | LocalTime  |
-| endTime       | LocalTime  |
-| isAvailable   | Boolean    |
-| slotDate      | LocalDate  |
-
-
+## API Reference
 ## User Profile Service
 
 1. **Register Patient**
@@ -409,3 +330,17 @@ HMS is a Healthcare Management System that streamlines healthcare services and t
     -   Method: GET
     -   Endpoint: **/medicines/all-available-medicine**
     -   Purpose: Retrieves a list of all available medicines.
+
+## Acknowledgements
+
+ - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Awesome README](https://github.com/matiassingers/awesome-readme)
+ - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+
+
+## Author Information
+
+- [@connectkhalid](https://github.com/connectkhalid)
+- [@Mohammad Khalid Hasan](https://www.linkedin.com/in/connectkhalid/) (Linkedin Profile)
+- Email: connectkhalid404@gmail.com
+- Software Engineer (JAVA) @BJIT | Working with Java, Spring Boot, React.js, RESTful API, Microservices
