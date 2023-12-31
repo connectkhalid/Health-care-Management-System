@@ -1,7 +1,14 @@
 
 # Healthcare Management System
 
-HMS is a Healthcare Management System that streamlines healthcare services and the community effectively. It optimizes appointment scheduling and personalized patient health recommendations, enhancing overall community engagement effectively. In this microservice project architechture there are 9 services- UserProfile, DoctorProfile, CDSS, CommunityPortal, PharmacyInventory, Analysis-and-Research, ServiceRegistry, ApiGateway, ConfigServer.
+HMS is a Healthcare Management System that streamlines healthcare services and the community effectively. It optimizes appointment scheduling and personalized patient health recommendations, enhancing overall community engagement effectively. In this microservice project architecture, there are 9 services- UserProfile, DoctorProfile, CDSS, CommunityPortal, PharmacyInventory, Analysis-and-Research, ServiceRegistry, ApiGateway, and ConfigServer.
+
+## Author Information
+
+- [@connectkhalid](https://github.com/connectkhalid)
+- [@Mohammad Khalid Hasan](https://www.linkedin.com/in/connectkhalid/) (Linkedin Profile)
+- Email: connectkhalid404@gmail.com
+- Software Engineer (JAVA) @BJIT | Working with Java, Spring Boot, React.js, RESTful API, Microservices
 
 ## Documentation
 1. [SRS Documentation & Diagrams](https://1drv.ms/f/s!At5obTwuFiuXhPhrcoAj_Uk1YAoWxA?e=3YixD3)
@@ -330,17 +337,3 @@ To run this project, you will need to add/install the following environment vari
     -   Method: GET
     -   Endpoint: **/medicines/all-available-medicine**
     -   Purpose: Retrieves a list of all available medicines.
-
-## Acknowledgements
-
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-
-
-## Author Information
-
-- [@connectkhalid](https://github.com/connectkhalid)
-- [@Mohammad Khalid Hasan](https://www.linkedin.com/in/connectkhalid/) (Linkedin Profile)
-- Email: connectkhalid404@gmail.com
-- Software Engineer (JAVA) @BJIT | Working with Java, Spring Boot, React.js, RESTful API, Microservices
